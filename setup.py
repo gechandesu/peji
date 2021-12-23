@@ -6,7 +6,7 @@ with open("README.md", "r") as long_descr:
 
 setup(
     name='Peji',
-    version='1.0',
+    version='1.0.1',
     author='ge',
     description='Static site generator.',
     long_description=long_description,
