@@ -266,7 +266,7 @@ def parse_page_metadata(text: str) -> dict:
     else:
         return None
 
-def validate_matadata(config: dict, metadata: dict) -> dict:
+def validate_metadata(config: dict, metadata: dict) -> dict:
     meta = {}
     if metadata:
         try:
@@ -361,7 +361,7 @@ def build_site(build_dir: str):
     markdown_files = get_markdown_file_list(pages)
     for file in markdown_files:
         text = read_file(file)
-        meta = validate_matadata(
+        meta = validate_metadata(
             config,
             parse_page_metadata(text)
         )
