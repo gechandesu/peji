@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>
+    {% block title %}{% endblock %}
+    </title>
+    {% block head %}{% endblock %}
+    </head>
+<body>
+<h1 style="font-size: 48px; font-weight: 300; margin-bottom: 14px;">Pēji</h1>
+<span style="font-size: 14px;"><i>Stupidly simple static site generator.</i></span>
+{% if menu %}
+<div class="menu">
+    <ul>
+        {% for link in menu.keys() %}
+        <li><a href="{{ menu.get(link) }}">{{ link }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% block content %}
+Nothing here.
+{% endblock %}
+</body>
+</html>

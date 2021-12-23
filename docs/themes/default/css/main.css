@@ -1,0 +1,103 @@
+body {
+    margin: 32px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+hr {
+    border: none;
+    border-top: 0.5px solid;
+}
+
+a,
+a:active,
+a:visited {
+    color: #3f37c9;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px dashed;
+}
+
+
+.menu {
+    margin: 18px 0 28px 0;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0;
+    padding: 0;
+    padding-right: 8px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li::before {
+    content: '|';
+    position: relative;
+    left: -6px;
+}
+
+.menu ul li:first-child::before {
+    content: none;
+}
+
+pre {
+    padding: 12px;
+    overflow: auto;
+}
+
+dt {
+    font-weight: bold;
+    font-style: italic;
+}
+
+dd {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+details summary {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.admonition {
+    padding: 0 16px;
+}
+
+.info {
+    color: #055160;
+    background-color: #cff4fc;
+    border: 1px solid #055160;
+}
+
+.note {
+    color: #084298;
+    background-color: #cfe2ff;
+    border: 1px solid #084298;
+}
+
+.tip {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border: 1px solid #0f5132;
+}
+
+.warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border: 1px solid #664d03;
+}
+
+.danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border: 1px solid #842029;
+}

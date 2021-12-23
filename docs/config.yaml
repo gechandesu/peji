@@ -1,0 +1,30 @@
+# Site title.
+title: Pēji
+# Site meta description.
+description: Stupidly simple static site generator.
+# Site default theme.
+theme: default
+# Site menu.
+menu:
+    Home: /
+    Quickstart: /quickstart.html
+    Configuration: /configuration.html
+    Downloads: /downloads.html
+    Source Code: https://gitea.gch.icu/ge/peji
+    Other Projects: https://gitea.gch.icu/ge
+# Markdown extensions.
+# See https://python-markdown.github.io/extensions/
+markdown_extensions:
+    - admonition
+    - codehilite
+    - extra
+    - meta
+    - toc
+markdown_extension_configs:
+    codehilite:
+        noclasses: true
+        use_pygments: true
+        pygments_style: default
+    toc:
+        title: Table of contents
+        toc_depth: 2-5

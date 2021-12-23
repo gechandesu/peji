@@ -1,0 +1,9 @@
+{% extends 'base.j2' %}
+{% block title %}{{ title }} | {{ site_title }}{% endblock %}
+{% block head %}{{ super() }}
+    <link rel="stylesheet" href="/themes/{{ theme }}/css/main.css">
+    <link rel="shortcut icon" href="/themes/{{ theme }}/images/favicon.ico" type="image/x-icon">
+{% endblock %}
+{% block content %}
+    {{ content | safe }}
+{% endblock %}
