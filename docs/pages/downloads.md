@@ -4,9 +4,11 @@ title: Downloads
 
 # Downloads
 
-**Pēji 1.0**
+**Pēji 1.0.2** [2021.12.23]
 
-2021.04.12
+- Source code: [Peji-1.0.2.tar.gz](Peji-1.0.2.tar.gz)
+
+**Pēji 1.0** [2021.04.12]
 
 - Source code: [Peji-1.0.tar.gz](Peji-1.0.tar.gz)
 
